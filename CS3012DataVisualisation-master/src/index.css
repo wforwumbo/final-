@@ -1,0 +1,54 @@
+body { 
+	background-color:#ffffff; /*light grey*/
+	font-family: "Calibri", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: #1e1e1e; /*dark grey*/
+ 	animation: fadein 5s;
+}
+
+@keyframes fadein 
+{
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+h1 { 
+	background-color:#666666; color:#FFFFFF; padding:4px 8px; font-style: italic; font-size: 36px;
+}
+h2 { 
+	color:#454764; padding:4px 8px;
+}
+
+.App-header {
+	text-align: center;
+}
+
+.details{
+	text-align: center;
+}
+
+input[type='text']{
+	border: 2px solid #bbb;
+	border-radius: 4px;
+	color: #000000;
+	padding: 10px 20px;
+	padding-left: 20px;
+	margin:4px 4px;
+	box-sizing: border-box;
+}
+
+input[type='submit']{
+	border:none;
+	border-radius: 4px;
+	color: #FFFFFF;
+	background-color: #000000;
+	padding: 10px 20px;
+	padding-left: 20px;
+	margin:4px 4px;
+}
+input[type='submit']:hover {
+	transform:scale(1.05,1.05);
+    -webkit-transform:scale(1.05,1.05) ease-in-out;
+    -moz-transform:scale(1.05,1.05) ease-in-out;
+}
